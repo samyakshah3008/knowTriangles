@@ -18,6 +18,7 @@ function calculateScore() {
         }
         index = index + 1
     }
+    
     console.log(score)
     output.innerText = "Your score is: "  + score + "/5"
 }
